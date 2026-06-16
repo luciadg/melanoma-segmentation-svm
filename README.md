@@ -24,7 +24,8 @@ The data utilized in this project is a subset of the ISIC (International Skin Im
 * **Source:** ISIC 2018 Archive.
 * **Quantity:** 51 dermoscopic images.
 * **Class Distribution:** 19 melanomas, 32 benign nevi.
-* **Directory Structure:** * `/dataset/images/`: Raw RGB dermoscopic images.
+* **Directory Structure:**
+  * `/dataset/images/`: Raw RGB dermoscopic images.
   * `/dataset/masks/`: Expert manual masks for segmentation validation.
   * `/dataset/list.csv`: Ground truth class labels (0 = Benign, 1 = Melanoma).
 
