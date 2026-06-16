@@ -6,9 +6,11 @@ Academic project developed for the Master's in Bioinformatics for Health Science
 
 The system operates in two main phases to map dermatological lesions and classify them accurately:
 
-1. **Lesion Segmentation & Validation:** * Automatic segmentation of the skin lesion.
+1. **Lesion Segmentation & Validation:**
+   * Automatic segmentation of the skin lesion.
    * Pixel-wise validation against expert manual masks (Ground Truth) calculating the Intersection over Union (IoU), mapping False Positives and False Negatives.
-2. **Feature Extraction & Classification:** * Extraction of 5 specific descriptors based on the clinical ABCDE rule and texture analysis:
+3. **Feature Extraction & Classification:**
+   * Extraction of 5 specific descriptors based on the clinical ABCDE rule and texture analysis:
      * **Asymmetry:** Computed via geometric bounding box horizontal reflection.
      * **Border (Circularity):** Contour-based irregularity metric.
      * **Color:** Mean and Standard Deviation of the Red (R) channel.
